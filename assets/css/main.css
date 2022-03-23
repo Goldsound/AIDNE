@@ -181,7 +181,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -290,6 +289,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
+		text-transform: uppercase;
 	}
 
 	h2.majorCenter {
@@ -300,6 +300,7 @@ input, select, textarea {
 		text-align: center;
 		font-size: 2em;
 	}
+
 
 	h2.majorWhite {
 		padding-bottom: 1em;
@@ -2528,7 +2529,7 @@ input, select, textarea {
                 left: 50%;
                 transform: translateX(-50%);
                 width: 1280px;
-                height: 700px;
+                height: 500px;
                 border-radius: 5px;
                 overflow: hidden;
 				/* border: 8px solid;
@@ -3258,6 +3259,11 @@ input, select, textarea {
 					margin: 0 0 2em 0 !important;
 				}
 
+			#LastArticle {
+				width: 100%;
+				margin: 0 0 2em 0 !important;
+			}
+
 		}
 
 /* Header */
@@ -3618,6 +3624,8 @@ input, select, textarea {
 			width: 100%;
 			max-width: 100%;
 			height: auto;
+			padding-bottom: 5em;
+			transform: translate(0, -25%)
 
 		}
 
@@ -4014,8 +4022,8 @@ input, select, textarea {
 
 				.wrapper.spotlight .image img {
 					border-radius: 100%;
-					width: 276px;
-					height: 276px;
+					width: 15em;
+					height: 15em;
 					/* background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1, #333333), color-stop(0.67, #A50000)); */
 					/* background-image: -moz-linear-gradient(center bottom, #333333 100%, #A50000 67% ); */
 					padding: 3px;
@@ -4187,6 +4195,7 @@ input, select, textarea {
 				.wrapper.spotlight .image {
 					width: 19em;
 					margin: 0 1.75em 2em 0;
+					display: none;
 				}
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
