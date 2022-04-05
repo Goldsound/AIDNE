@@ -260,6 +260,7 @@ input, select, textarea {
 		color: #A50000;
 		font-weight: 900;
 		font-size: x-large;
+		padding: 0.25em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3621,11 +3622,11 @@ input, select, textarea {
 			}
 
 		#targetLogo {
-			width: 100%;
-			max-width: 100%;
+			width: 75%;
+			max-width: 75%;
 			height: auto;
 			padding-bottom: 5em;
-			transform: translate(0, -25%)
+			transform: translate(20%, 0%)
 
 		}
 
